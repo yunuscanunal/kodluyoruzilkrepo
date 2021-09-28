@@ -1,7 +1,7 @@
 # Kodluyoruz İlk Repo
 
 Bu repo [Kodluyoruz](https://www.kodluyoruz.org) Node.js ile Backend Eğitiminde oluşturduğumuz ilk repo. İçerisinde bir adet README dosyası, bir adet de intex.html barındırıyor.
-![](file:///Users/yunuscanunal/Desktop/Eg%CC%86itimler/Patika.dev/Node.js_ile_Backend/GIT_Nedir/Ödev-1/kodluyoruzilkrepo/Figures/github_repo_ss.png)
+![](./Figures/github_repo_ss.png)
 
 ## Installation
 
