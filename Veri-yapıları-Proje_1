@@ -1,0 +1,38 @@
+Proje 1
+[22,27,16,2,18,6] -> Insertion Sort
+	1	Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+	2	Big-O gösterimini yazınız.
+	3	Time Complexity: Average case: Aradığımız sayının ortada olması, Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.
+	4	Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
+
+[7,3,5,8,2,9,4,15,6] dizisinin Insertion sort'a göre ilk 4 adımını yazınız.
+Solutions:
+1. [22,27,16,2,18,6] 
+Step 1: En küçük elemanı buluyoruz ve en baştaki sayı (sıfırıncı index) ile yer değiştiriyoruz.
+[2,27,16,22,18,6] 
+Step 2: İkinci en küçük eleman bulup ikinci sıradaki (birinci index) ile yer değiştiriyoruz.
+[2,6,16,22,18,27] 
+Step 3:  Üçüncü en küçük sayı doğru yerde, dördüncü en küçük sayıyı alıp işlemlere aynı şekilde devam ediyoruz.
+[2,6,16,18,22,27]
+Insertion sort metodu tamamlandı. 
+——————————————————————————
+Big O gösterimi = O(n^2)
+Time Complexity ise best case için O(n), average ve worst caseler için O(n^2) dir.
+Array [2,6,16,18,22,27] şeklinde sıralandığında 18 sayısı average case kapsamına girer çünkü yaklaşık olarak arrayın ortalarında yer almaktadır.
+——————————————————————————
+2. [7,3,5,8,2,9,4,15,6] 
+En küçüğü bulup yer değiştir.
+[2,3,5,8,7,9,4,15,6]
+İkinci en küçük olması gereken yerde. Üçüncü en küçüğü bul ve işlemlere devam et.
+[2,3,4,8,7,9,5,15,6]
+[2,3,4,5,7,9,8,15,6] 
+[2,3,4,5,6,9,8,15,7]
+[2,3,4,5,6,7,8,15,9]
+[2,3,4,5,6,7,8,9,15]
+Insertion sort metodu tamamlandı. 
+——————————————————————————
+Big O gösterimi = O(n^2)
+Time Complexity ise best case için O(n), average ve worst caseler için O(n^2) dir.
+Array [2,3,4,5,6,7,8,9,15] şeklinde sıralandığında 6 sayısı average case kapsamına girer çünkü yaklaşık olarak arrayın ortalarında yer almaktadır.
+
+
